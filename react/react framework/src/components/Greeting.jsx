@@ -1,8 +1,14 @@
 import React from 'react'
 
-function Greeting() {
+const Greeting = (props) => {
   return (
-    <div>Greeting</div>
+    <div className='main'>
+    <div className='box'>
+      <h3>{props.name}</h3>
+      <p>{props.course}</p>
+      <p>{props.marks}</p>
+    </div>
+    </div>
   )
 }
 

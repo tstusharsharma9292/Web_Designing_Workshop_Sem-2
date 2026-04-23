@@ -6,11 +6,13 @@ import './App.css'
 import Greeting from './components/Greeting'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <Greeting/>
+      <h1>Student Information</h1>
+      <Greeting name = "Tushar Sharma" course = "Course: Computer Science" marks = "Marks: 95"/>
+      <Greeting name = "Isha Kaushik" course = "Course: Biotechnology" marks = "Marks: 93"/>
+      <Greeting name = "Vansh Panwar" course = "Course: Electronics" marks = "Marks: 87"/>
     </>
   )
 }
